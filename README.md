@@ -20,3 +20,6 @@ Project 2: Ternary trees (like binary search trees, but with three branches a no
 Project 3: Word processing and hashing
 Project 4: Graph structures and searches
 Project 5: Markov algorithms
+
+TO DO:
+Find and upload the original project descriptions
