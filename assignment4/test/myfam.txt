@@ -1,0 +1,130 @@
+Dad
+Insert 1 Parent 1 Marriage 2 
+Mom
+Insert 2 Parent 3 Marriage 2
+Me
+Insert 3 Parent 2 Marriage 0
+My siblings, in order
+Insert 4 Parent 2 Marriage 0
+Insert 5 Parent 2 Marriage 0
+Insert 6 Parent 2 Marriage 0
+Insert 7 Parent 2 Marriage 0
+Insert 8 Parent 2 Marriage 0
+Insert 9 Parent 2 Marriage 0
+My Mom&Dad's marriage
+Family 2 Husband 1 Wife 2 Child 3 Child 4 Child 5 Child 6 Child 7 Child 8 Child 9
+Check
+
+Richie&Grace Gallivan (My Dad's parent)
+Family 1 Husband 38 Wife 39 Child 1 Child 10 Child 11 Child 12 Child 13 Child 14 Child 15
+Gpa
+Insert 38 Parent 0 Marriage 1
+Gma
+Insert 39 Parent 0 Marriage 1
+Pat
+Insert 10 Parent 1 Marriage 5
+Insert 16 Parent 0 Marriage 5
+Family 5 Husband 10 Wife 16 Child 85
+Conor
+Insert 85 Parent 5 Marriage 0
+Neil&Shannon
+Insert 11 Parent 1 Marriage 0
+Insert 12 Parent 1 Marriage 0
+Erin & the Weavers
+Family 4 Husband 17 Wife 13 Child 86 Child 87 Child 88
+Insert 13 Parent 1 Marriage 4
+Insert 17 Parent 0 Marriage 4
+Insert 87 Parent 4 Marriage 0
+Insert 86 Parent 4 Marriage 0
+Insert 88 Parent 4 Marriage 0
+Karyn
+Insert 14 Parent 1 Marriage 0
+Ryan
+Insert 15 Parent 1 Marriage 0
+Check
+
+Gpa Tom, Gma Joyce Wellmeier (My Mom's parents)
+Family 3 Husband 25 Wife 26 Child 2 Child 20 Child 21
+Insert 25 Parent 42 Marriage 3
+Insert 26 Parent 0 Marriage 3
+Jayna & Jason Mokros w/ Rylie and Livvy
+Insert 20 Parent 3 Marriage 6
+Insert 22 Parent 0 Marriage 6
+Insert 89 Parent 6 Marriage 0
+Insert 90 Parent 6 Marriage 0
+Family 6 Husband 22 Wife 20 Child 89 Child 90
+David&Cara, Noah&Eva
+Family 7 Husband 21 Wife 23 Child 91 Child 92
+Insert 21 Parent 3 Marriage 7
+Insert 23 Parent 0 Marriage 7
+Insert 91 Parent 7 Marriage 0
+Insert 92 Parent 7 Marriage 0
+Check
+
+Wellmeier-Poti connection (Grandpa Tom's Sister Ellen married Norm Poti, and they have a son)
+Family 42 Husband 0 Wife 0 Child 25 Child 27
+Ellen, Norm, Jason
+Insert 27 Parent 42 Marriage 43
+Insert 28 Parent 0 Marriage 43
+Insert 29 Parent 43 Marriage 0
+Family 43 Husband 28 Wife 27 Child 29
+
+now I will addsome upper Gallivan lore - the Irish family history on my Dad's dad's side
+Family 40 husband 40 Wife 41 Child 38 Child 42
+Raymond
+Insert 40 parent 50 Marriage 40
+Kate
+Insert 41 Parent 60 Marriage 40
+Re-inserting Gpa R
+Insert 38 Parent 40 Marriage 1
+Family 50 Husband 50 Wife 0 Child 40
+Patrick G, married to Katie
+Insert 50 Parent 0 Marriage 50
+Family 60 Husband 60 Wife 0 Child 41 Child 62
+Pat G? married a french canadian
+Insert 60 Parent 0 Marriage 60
+Msgr Herlihy
+Insert 62 Parent 60 Marriage 0
+Msgr Gallivan
+Insert 42 Parent 40 Marriage 0
+Check
+
+And the Holy Family
+(No relation to me, at least biologically speaking)
+Jesus, Mary, Joseph
+Insert 33 Parent 99 Marriage 70 
+Insert 30 Parent 0 Marriage 99
+Insert 72 Parent 0 Marriage 99
+Family 99 Husband 30 Wife 72 Child 33
+The Catholic Church, Christ's Bride
+Insert 70 Parent 0 Marriage 70
+Family 70 Husband 33 Wife 70
+Check
+
+Dad to Mom
+Relate 1 2
+Dad to me
+Relate 1 3
+Me to my lovely sister
+Relate 3 4
+Aunt Jayna (Mom's side) to cousin Conor (Dad's side)
+Relate 20 85
+My Great-Great-Uncle Father Dave Herlihy (Dad's side) to Second Cousin Jason (Mom's side)
+Relate 62 29
+
+St. Joseph to me
+Relate 30 3
+Me to St. Joseph
+Relate 3 30
+
+Note: extremely fictitious! for testing purposes only!
+Creates a link of marriage between
+Great-Great-Grandpa Gallivan and my cousin Jason Poti's nonexistent sister.
+This makes a shorter path for the repeated "Relate 62 29" to find.
+It also make the data inconsistent.
+Family 60 Husband 60 Wife 80 Child 41 Child 42
+Insert 80 Parent 43 Marriage 60
+Family 43 Husband 28 Wife 27 Child 29 Child 80
+Check
+
+Relate 62 29

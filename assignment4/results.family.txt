@@ -1,0 +1,235 @@
+gcc -Wall -g -O0 main.c -o "famigram"
+./famigram
+Inserted individual 1 with parents 2 and marriage 1
+Inserted individual 4 with parents 5 and marriage 1
+Inserted family 1 with husband 1, wife 4, and children 7 8
+Inserted individual 2 with parents 3 and marriage 2
+Inserted individual 3 with parents 4 and marriage 2
+Inserted family 2 with husband 2, wife 3, and children 13 14 1 15
+Inserted family 3 with husband 9, wife 10, and children 2 16
+Inserted family 4 with husband 11, wife 12, and children 3 17
+Inserted individual 7 with parents 1 and marriage 0
+Inserted individual 8 with parents 1 and marriage 0
+Inserted individual 13 with parents 2 and marriage 6
+Inserted individual 14 with parents 2 and marriage 0
+Inserted family 5 with husband 5, wife 6, and children 4 19 20
+Inserted individual 19 with parents 5 and marriage 7
+Inserted individual 20 with parents 5 and marriage 8
+Inserted individual 21 with parents 7 and marriage 0
+Inserted individual 22 with parents 7 and marriage 0
+Inserted individual 16 with parents 3 and marriage 9
+Inserted individual 17 with parents 4 and marriage 10
+Inserted individual 5 with parents 11 and marriage 5
+Inserted individual 6 with parents 12 and marriage 5
+Inserted individual 9 with parents 13 and marriage 3
+Inserted family 6 with husband 13, wife 18, and children 0
+Inserted individual 10 with parents 14 and marriage 3
+Inserted individual 11 with parents 15 and marriage 4
+Inserted individual 12 with parents 16 and marriage 4
+Inserted individual 18 with parents 0 and marriage 6
+Inserted individual 25 with parents 0 and marriage 8
+Inserted individual 26 with parents 0 and marriage 9
+Inserted individual 27 with parents 0 and marriage 10
+Inserted individual 23 with parents 7 and marriage 0
+Inserted individual 24 with parents 0 and marriage 7
+Inserted family 7 with husband 19, wife 24, and children 21 22 23
+Inserted family 8 with husband 25, wife 20, and children 28
+Inserted family 9 with husband 16, wife 26, and children 30 31
+Inserted family 10 with husband 27, wife 17, and children 33 32
+Inserted individual 28 with parents 8 and marriage 0
+Inserted individual 30 with parents 9 and marriage 17
+Inserted individual 31 with parents 9 and marriage 0
+Inserted individual 32 with parents 10 and marriage 0
+Inserted individual 33 with parents 10 and marriage 71
+Inserted individual 29 with parents 0 and marriage 17
+Inserted individual 34 with parents 17 and marriage 0
+Inserted individual 35 with parents 17 and marriage 0
+Inserted individual 36 with parents 17 and marriage 0
+Inserted individual 37 with parents 0 and marriage 0
+Inserted individual 39 with parents 19 and marriage 14
+Inserted individual 40 with parents 20 and marriage 14
+Inserted individual 41 with parents 21 and marriage 0
+Inserted individual 42 with parents 14 and marriage 21
+Inserted family 14 with husband 40, wife 39, and children 10 42
+Inserted individual 43 with parents 0 and marriage 21
+Inserted individual 44 with parents 21 and marriage 22
+Inserted individual 45 with parents 22 and marriage 23
+Inserted individual 46 with parents 0 and marriage 23
+Inserted individual 47 with parents 23 and marriage 0
+Inserted family 23 with husband 46, wife 45, and children 47
+Inserted individual 48 with parents 22 and marriage 0
+Inserted individual 49 with parents 22 and marriage 24
+Inserted individual 50 with parents 0 and marriage 24
+Inserted family 24 with husband 50, wife 49, and children 0
+Inserted family 22 with husband 44, wife 51, and children 45 48 49
+Inserted individual 51 with parents 0 and marriage 22
+Inserted family 21 with husband 43, wife 42, and children 44 41
+Inserted individual 52 with parents 20 and marriage 0
+Inserted individual 53 with parents 20 and marriage 0
+Inserted family 20 with husband 54, wife 0, and children 40 52 53
+Inserted individual 54 with parents 0 and marriage 20
+Inserted individual 55 with parents 19 and marriage 26
+Inserted individual 56 with parents 0 and marriage 26
+Inserted individual 57 with parents 0 and marriage 27
+Inserted family 27 with husband 57, wife 55, and children 0
+Inserted individual 58 with parents 26 and marriage 28
+Inserted individual 59 with parents 0 and marriage 0
+Inserted individual 60 with parents 28 and marriage 29
+Inserted individual 61 with parents 0 and marriage 29
+Inserted individual 62 with parents 29 and marriage 0
+Inserted family 29 with husband 61, wife 60, and children 62
+Inserted individual 63 with parents 28 and marriage 30
+Inserted individual 64 with parents 0 and marriage 30
+Inserted individual 65 with parents 30 and marriage 0
+Inserted family 30 with husband 63, wife 64, and children 65
+Inserted individual 66 with parents 28 and marriage 31
+Inserted individual 67 with parents 0 and marriage 31
+Inserted individual 68 with parents 31 and marriage 0
+Inserted individual 69 with parents 31 and marriage 0
+Inserted family 31 with husband 67, wife 66, and children 69 68
+Individual 5 points to parent family 11, which does not exist in the data
+Individual 6 points to parent family 12, which does not exist in the data
+Individual 9 points to parent family 13, which does not exist in the data
+Individual 11 points to parent family 15, which does not exist in the data
+Individual 12 points to parent family 16, which does not exist in the data
+Individual 29 points to marriage 17, which does not exist in the data
+Individual 30 points to marriage 17, which does not exist in the data
+Individual 33 points to marriage 71, which does not exist in the data
+Individual 34 points to parent family 17, which does not exist in the data
+Individual 35 points to parent family 17, which does not exist in the data
+Individual 36 points to parent family 17, which does not exist in the data
+Individual 39 points to parent family 19, which does not exist in the data
+Individual 55 points to parent family 19, which does not exist in the data
+Individual 55 points to marriage 26, which does not exist in the data
+Individual 56 points to marriage 26, which does not exist in the data
+Individual 58 points to parent family 26, which does not exist in the data
+Individual 58 points to marriage 28, which does not exist in the data
+Individual 60 points to parent family 28, which does not exist in the data
+Individual 63 points to parent family 28, which does not exist in the data
+Individual 66 points to parent family 28, which does not exist in the data
+Family 2 points to child 15, who does not exist in the data
+Family 27 points to wife 55, but there is no backpointer
+Inserted individual 70 with parents 28 and marriage 32
+Inserted individual 71 with parents 0 and marriage 32
+Inserted individual 72 with parents 32 and marriage 0
+Inserted individual 73 with parents 32 and marriage 0
+Inserted family 32 with husband 70, wife 71, and children 72 73
+Inserted family 28 with husband 59, wife 58, and children 60 63 66 70
+Inserted individual 74 with parents 26 and marriage 33
+Inserted individual 75 with parents 0 and marriage 33
+Inserted individual 76 with parents 33 and marriage 0
+Inserted family 33 with husband 75, wife 74, and children 76
+Inserted individual 77 with parents 26 and marriage 34
+Inserted individual 78 with parents 34 and marriage 35
+Inserted individual 79 with parents 0 and marriage 35
+Inserted individual 80 with parents 35 and marriage 0
+Inserted family 35 with husband 78, wife 79, and children 80
+Inserted family 36 with husband 78, wife 0, and children 0
+Individual 5 points to parent family 11, which does not exist in the data
+Individual 6 points to parent family 12, which does not exist in the data
+Individual 9 points to parent family 13, which does not exist in the data
+Individual 11 points to parent family 15, which does not exist in the data
+Individual 12 points to parent family 16, which does not exist in the data
+Individual 29 points to marriage 17, which does not exist in the data
+Individual 30 points to marriage 17, which does not exist in the data
+Individual 33 points to marriage 71, which does not exist in the data
+Individual 34 points to parent family 17, which does not exist in the data
+Individual 35 points to parent family 17, which does not exist in the data
+Individual 36 points to parent family 17, which does not exist in the data
+Individual 39 points to parent family 19, which does not exist in the data
+Individual 55 points to parent family 19, which does not exist in the data
+Individual 55 points to marriage 26, which does not exist in the data
+Individual 56 points to marriage 26, which does not exist in the data
+Individual 58 points to parent family 26, which does not exist in the data
+Individual 74 points to parent family 26, which does not exist in the data
+Individual 77 points to parent family 26, which does not exist in the data
+Individual 77 points to marriage 34, which does not exist in the data
+Individual 78 points to parent family 34, which does not exist in the data
+Family 2 points to child 15, who does not exist in the data
+Family 27 points to wife 55, but there is no backpointer
+Family 28 points to husband 59, but there is no backpointer
+Family 36 points to husband 78, but there is no backpointer
+Inserted family 34 with husband 0, wife 77, and children 78
+Inserted individual 81 with parents 26 and marriage 0
+Inserted family 26 with husband 56, wife 55, and children 58 74 77 81
+Inserted individual 82 with parents 19 and marriage 37
+Inserted individual 83 with parents 0 and marriage 37
+Inserted individual 84 with parents 37 and marriage 38
+Inserted individual 85 with parents 0 and marriage 38
+Inserted individual 87 with parents 38 and marriage 0
+Inserted individual 88 with parents 38 and marriage 40
+Inserted individual 89 with parents 0 and marriage 40
+Inserted individual 90 with parents 40 and marriage 41
+Inserted family 41 with husband 0, wife 90, and children 0
+Inserted family 40 with husband 88, wife 89, and children 90
+Inserted family 43 with husband 0, wife 0, and children 0
+Inserted family 42 with husband 0, wife 0, and children 0
+Inserted family 44 with husband 0, wife 0, and children 0
+Inserted family 45 with husband 0, wife 0, and children 0
+Inserted family 46 with husband 0, wife 0, and children 0
+Inserted family 47 with husband 0, wife 0, and children 0
+Inserted family 48 with husband 0, wife 0, and children 0
+Inserted family 49 with husband 0, wife 0, and children 0
+Inserted family 50 with husband 0, wife 0, and children 0
+Inserted family 38 with husband 84, wife 85, and children 88 87
+Inserted family 52 with husband 0, wife 0, and children 0
+Inserted family 51 with husband 0, wife 0, and children 0
+Inserted family 53 with husband 0, wife 0, and children 0
+Inserted family 54 with husband 0, wife 0, and children 0
+Inserted family 56 with husband 0, wife 0, and children 0
+Inserted family 57 with husband 0, wife 0, and children 0
+Inserted family 58 with husband 0, wife 0, and children 0
+Inserted family 55 with husband 0, wife 0, and children 0
+Inserted family 61 with husband 0, wife 0, and children 0
+Inserted family 59 with husband 0, wife 0, and children 0
+Inserted family 60 with husband 0, wife 0, and children 0
+Inserted family 63 with husband 0, wife 0, and children 0
+Inserted family 64 with husband 0, wife 0, and children 0
+Inserted family 65 with husband 0, wife 0, and children 0
+Inserted family 66 with husband 0, wife 0, and children 0
+Inserted family 67 with husband 0, wife 0, and children 0
+Inserted family 62 with husband 0, wife 0, and children 0
+Inserted family 69 with husband 0, wife 0, and children 0
+Inserted family 68 with husband 0, wife 0, and children 0
+Inserted family 70 with husband 0, wife 0, and children 0
+Inserted family 37 with husband 83, wife 82, and children 84
+Inserted family 19 with husband 0, wife 0, and children 82 55 39
+Inserted family 71 with husband 33, wife 0, and children 0
+Inserted family 72 with husband 0, wife 0, and children 0
+Inserted family 75 with husband 0, wife 0, and children 0
+Inserted family 76 with husband 0, wife 0, and children 0
+Inserted family 73 with husband 0, wife 0, and children 0
+Inserted family 79 with husband 0, wife 0, and children 0
+Inserted family 80 with husband 0, wife 0, and children 0
+Inserted family 81 with husband 0, wife 0, and children 0
+Inserted family 77 with husband 0, wife 0, and children 0
+Inserted family 83 with husband 0, wife 0, and children 0
+Inserted family 78 with husband 0, wife 0, and children 0
+Inserted family 84 with husband 0, wife 0, and children 0
+Inserted family 85 with husband 0, wife 0, and children 0
+Inserted family 82 with husband 0, wife 0, and children 0
+Inserted family 74 with husband 0, wife 0, and children 0
+Inserted family 86 with husband 0, wife 0, and children 0
+Inserted family 90 with husband 0, wife 0, and children 0
+Inserted family 89 with husband 0, wife 0, and children 0
+Inserted family 87 with husband 0, wife 0, and children 0
+Inserted family 88 with husband 0, wife 0, and children 0
+Inserted family 13 with husband 0, wife 0, and children 9
+Inserted family 17 with husband 30, wife 29, and children 34 35 36
+Inserted family 18 with husband 0, wife 31, and children 38
+Inserted individual 38 with parents 18 and marriage 0
+Inserted family 15 with husband 0, wife 0, and children 11
+Inserted family 16 with husband 0, wife 0, and children 12
+Inserted family 25 with husband 0, wife 0, and children 0
+Inserted family 11 with husband 0, wife 0, and children 5
+Inserted family 12 with husband 0, wife 0, and children 6
+Inserted individual 15 with parents 2 and marriage 0
+Inserted individual 86 with parents 0 and marriage 0
+Inserted family 39 with husband 0, wife 0, and children 0
+Family 18 points to wife 31, but there is no backpointer
+Family 27 points to wife 55, but there is no backpointer
+Family 28 points to husband 59, but there is no backpointer
+Family 36 points to husband 78, but there is no backpointer
+individual 3 family 2 individual 1 family 1 individual 7 
+individual 20 family 5 individual 4 family 1 individual 1 family 2 individual 2 family 3 individual 16 family 9 individual 30 
+One of those people does not exist!

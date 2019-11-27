@@ -1,0 +1,24 @@
+JMJ
+
+The Famigram
+by David Gallivan
+
+This project conforms to the specs of assignment 4
+ of CS315, spring 2019, at the Univesity of Kentucky.
+ The program, famigram, will take commands to insert
+ family graph data, check it for consistency, and
+ search for relationships among individuals.
+
+
+All commands must be formatted exactly right,
+ as specified in aforementioned assignment
+Any line in the data that does not begin with a
+ designated command word will be treated as a
+ comment and will not be processed. My test data,
+ myfam.txt, has many such comments.
+
+I have included in this archive the results of the
+ following unix shell commands:
+
+make run < data.family.txt > results.family.txt
+./famigram < myfam.txt > myresults.txt	

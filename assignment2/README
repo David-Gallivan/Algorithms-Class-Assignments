@@ -1,0 +1,31 @@
+JMJ
+
+TTT: Ternary Tree conTraption
+
+Welcome to the TTT, a C++ class that uses ternary trees to store numerical values.
+For details on the requirements for the TTT, see the following URL:
+www.cs.uky.edu/~raphael/courses/CS315/asg.ternary.html
+
+The TTT itself (ttt.h, ttt.cpp, whence ttt.o) is the data type that I have used to implement the ternary tree.
+In the code, TTT refers to such a tree, or to a node thereof. The ternary tree and its methods are entirely recursive, so every child node of a TTT is also a TTT.
+
+usettt.cpp is the code for a demo program that includes and uses the TTT according to the specs at the above URL.
+By default, the demo reads 1000 integers from standard input, sorts them into a ternary tree, and prints the tree to standard output.
+One option integer command line argument, if entered, will change the number of integers read into the TTT.
+
+To compile and run this demo on the standard data set given for the assignment:
+make run < data.ternary.txt > output.file.txt
+The results of this are stored in the included file results.terary.txt
+
+To run it again, using the example data seen at the above URL:
+./tttdemo 20 < 20data.txt > another.ouput.file.txt
+The results of this are stored in the included file 20results.txt
+
+Integers can also be entered via command line, but this is tedious unless the number of integers read in is small.
+
+DEVELOPMENT NOTE
+A C++ template class was used with a view towards developing the TTT further into a fully useable class for any numerical data type.
+Currently, it only works reliably for integers; however, places have been indicated in the code by comments where a few adjustments would make
+the TTT a viable way to store floats, longs, etc.
+
+The class structure and the functions were also designed with a view to expanding the TTT for future applications like searching and sorting.

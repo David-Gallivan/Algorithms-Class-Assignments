@@ -1,0 +1,22 @@
+JMJ
+
+Welcome to the Oaxaca Wordcounter!
+
+This program corresponds to the specifications at:
+www.cs.uky.edu/~raphael/courses/CS315/asg.hashing.html
+Specifically, the program reads in text from standard input,
+stopping at EOF. It counts the occurrences of each word. It
+prints the results twice - once in alphabetical order and once
+in reverse numerical order - to standard output.
+
+NOTE: These two outputs are separated by a blank line.
+
+A hash table with external chaining and heap sort are used as specified.
+
+Three input files are included along with files showing the corresponding outputs.
+
+To compile and run:
+make run < filename
+
+After the first time:
+./ow < filename

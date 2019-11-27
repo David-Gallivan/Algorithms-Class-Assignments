@@ -1,0 +1,41 @@
+JMJ
+
+The Magnificent Markov-o-Matic
+by David Gallivan
+
+Welcome, ladies and gentlemen, to CS315,
+Spring 2019, at the University of Kentucky,
+and my fifth and final programming assignment:
+Markov Algorithms! This ingeneous invention
+will take any* Markov Algorithm and execute it
+faithfully, displaying each step before your
+bewildered blinking eyes!
+
+*Fine print: the rules of the algorithm must
+be properly formatted according to the
+assignment specifications, found on the course
+website. The "patterns" must be less that 20
+characters long; only 1000 rules can be executed;
+and the maximum length for the resulting string
+is 1024 characters.
+
+A makefile is included with the following commands:
+make - compiles the ELF "markovomatic"
+make run - compileth and runneth the same
+make dbg - compiles dbg_markovomatic, which 
+			includes debugging symbols
+make clean - deletes both executables
+
+Use "<" and ">" to redirect stdin and stdout.
+
+Also included are example data and results. Each
+data file has the rules for a Markov algorithm
+properly formatted, and each results file shows
+the output of my amazing machine given said rules.
+The binary-to-unary ones transform a binary string
+of 1s and 0s into a unary string of |s. The rules
+were adapted from an example found on Wikipedia's
+Markov Algorithms page. data.markov.txt has the rules
+used for the course. mydata.txt has rules of my own
+design; they don't do anything especially mind-blowing,
+but they show that each rule works and are kinda fun.

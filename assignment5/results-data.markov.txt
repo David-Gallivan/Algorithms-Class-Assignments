@@ -1,0 +1,2 @@
+./markovomatic
+Invalid number of rulesrule	MainString (after the rule)

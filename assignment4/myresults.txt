@@ -1,0 +1,80 @@
+Inserted individual 1 with parents 1 and marriage 2
+Inserted individual 2 with parents 3 and marriage 2
+Inserted individual 3 with parents 2 and marriage 0
+Inserted individual 4 with parents 2 and marriage 0
+Inserted individual 5 with parents 2 and marriage 0
+Inserted individual 6 with parents 2 and marriage 0
+Inserted individual 7 with parents 2 and marriage 0
+Inserted individual 8 with parents 2 and marriage 0
+Inserted individual 9 with parents 2 and marriage 0
+Inserted family 2 with husband 1, wife 2, and children 3 4 5 6 7 8 9
+Individual 1 points to parent family 1, which does not exist in the data
+Individual 2 points to parent family 3, which does not exist in the data
+Inserted family 1 with husband 38, wife 39, and children 1 10 11 12 13 14 15
+Inserted individual 38 with parents 0 and marriage 1
+Inserted individual 39 with parents 0 and marriage 1
+Inserted individual 10 with parents 1 and marriage 5
+Inserted individual 16 with parents 0 and marriage 5
+Inserted family 5 with husband 10, wife 16, and children 85
+Inserted individual 85 with parents 5 and marriage 0
+Inserted individual 11 with parents 1 and marriage 0
+Inserted individual 12 with parents 1 and marriage 0
+Inserted family 4 with husband 17, wife 13, and children 86 87 88
+Inserted individual 13 with parents 1 and marriage 4
+Inserted individual 17 with parents 0 and marriage 4
+Inserted individual 87 with parents 4 and marriage 0
+Inserted individual 86 with parents 4 and marriage 0
+Inserted individual 88 with parents 4 and marriage 0
+Inserted individual 14 with parents 1 and marriage 0
+Inserted individual 15 with parents 1 and marriage 0
+Individual 2 points to parent family 3, which does not exist in the data
+Inserted family 3 with husband 25, wife 26, and children 2 20 21
+Inserted individual 25 with parents 42 and marriage 3
+Inserted individual 26 with parents 0 and marriage 3
+Inserted individual 20 with parents 3 and marriage 6
+Inserted individual 22 with parents 0 and marriage 6
+Inserted individual 89 with parents 6 and marriage 0
+Inserted individual 90 with parents 6 and marriage 0
+Inserted family 6 with husband 22, wife 20, and children 89 90
+Inserted family 7 with husband 21, wife 23, and children 91 92
+Inserted individual 21 with parents 3 and marriage 7
+Inserted individual 23 with parents 0 and marriage 7
+Inserted individual 91 with parents 7 and marriage 0
+Inserted individual 92 with parents 7 and marriage 0
+Individual 25 points to parent family 42, which does not exist in the data
+Inserted family 42 with husband 0, wife 0, and children 25 27
+Inserted individual 27 with parents 42 and marriage 43
+Inserted individual 28 with parents 0 and marriage 43
+Inserted individual 29 with parents 43 and marriage 0
+Inserted family 43 with husband 28, wife 27, and children 29
+Inserted family 40 with husband 40, wife 41, and children 38 42
+Inserted individual 40 with parents 50 and marriage 40
+Inserted individual 41 with parents 60 and marriage 40
+Inserted individual 38 with parents 40 and marriage 1
+Inserted family 50 with husband 50, wife 0, and children 40
+Inserted individual 50 with parents 0 and marriage 50
+Inserted family 60 with husband 60, wife 0, and children 41 62
+Inserted individual 60 with parents 0 and marriage 60
+Inserted individual 62 with parents 60 and marriage 0
+Inserted individual 42 with parents 40 and marriage 0
+The data are consistent
+Inserted individual 33 with parents 99 and marriage 70
+Inserted individual 30 with parents 0 and marriage 99
+Inserted individual 72 with parents 0 and marriage 99
+Inserted family 99 with husband 30, wife 72, and children 33
+Inserted individual 70 with parents 0 and marriage 70
+Inserted family 70 with husband 33, wife 70, and children 0
+The data are consistent
+individual 1 family 2 individual 2 
+individual 1 family 2 individual 3 
+individual 3 family 2 individual 4 
+individual 20 family 3 individual 2 family 2 individual 1 family 1 individual 10 family 5 individual 85 
+individual 62 family 60 individual 41 family 40 individual 38 family 1 individual 1 family 2 individual 2 family 3 individual 25 family 42 individual 27 family 43 individual 29 
+Individuals 30 and 3 are not related
+Individuals 3 and 30 are not related
+Inserted family 60 with husband 60, wife 80, and children 41 42
+Inserted individual 80 with parents 43 and marriage 60
+Inserted family 43 with husband 28, wife 27, and children 29 80
+Individual 62 points to parent family 60, but there is no backpointer
+Family 60 points to child 42, but there is no backpointer
+individual 62 family 60 individual 80 family 43 individual 29 

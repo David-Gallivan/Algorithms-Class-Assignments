@@ -1,0 +1,35 @@
+JMJ
+
+CS315 Assignment 1: SecSim
+By David Gallivan
+
+THE PROGRAM:
+"SecSim," short for "Secretary Simulation," simulates the activity of
+a customer-service secretary answering clients' questions on the phone
+and in person. The clients come in fast and furious for ~10 seconds,
+and our dear secretary, Gary, works faster than a cyclone to answer as
+many of them as possible. He works according to the specifications at:
+
+www.cs.uky.edu/~raphael/courses/CS315/asg.secretary.html
+
+To compile and run SecSim, simply type "make run" and watch Gary do
+his stuff.
+
+EXTRA CREDIT PURSUED:
+Ideas 1 and 2 (see above URL) are implemented in SecSim-EC. "make ec"
+will compile and run this version, which reports both the numbers of
+callers vs. in-person visitors and a randomized time penalty for Gary's
+being "flustered" when he finishes answering a phone call.
+
+FINE-TUNED VERSION:
+The so-called "fine-tuned" version is the same as the EC version, but
+the constants q, p, d, and penalty (see above URL) have been adjusted
+to simulate a better day at the office, where in-person visitors
+actually stand a chance of getting their questions answered.
+
+OTHER DETAILS:
+-Gary is a hard worker who always stays a fraction of a second late to
+round out the day's work, thus the simulation ends a smidge after the
+10 second mark.
+-Each visitor or caller has "priority" stored among her data; this is so
+that extra credit idea 3 could be pursued more easily in the future.

@@ -1,0 +1,36 @@
+gcc -Wall -g   -c -o ftmain.o ftmain.c
+gcc -Wall -g -o SecSim-FT ftmain.o officeQueue.o
+./SecSim-FT
+Here is today's office log:
+---------------------------
+1.183149 sec:	Client #1 called		Clients waiting: 1	Callers waiting: 1  Visitors waiting: 0
+1.680375 sec:	Client #2 walked in		Clients waiting: 2	Callers waiting: 1  Visitors waiting: 1
+2.075478 sec:	Client #3 walked in		Clients waiting: 3	Callers waiting: 1  Visitors waiting: 2
+2.357798 sec:	Client #1 was answered		Clients waiting: 2	Callers waiting: 0  Visitors waiting: 2
+Flustered secretary: waiting 0.069444 sec, continuing at 2.427241
+3.578469 sec:	Client #4 called		Clients waiting: 3	Callers waiting: 1  Visitors waiting: 2
+3.611937 sec:	Client #5 walked in		Clients waiting: 4	Callers waiting: 1  Visitors waiting: 3
+4.341506 sec:	Client #6 walked in		Clients waiting: 5	Callers waiting: 1  Visitors waiting: 4
+4.409423 sec:	Client #4 was answered		Clients waiting: 4	Callers waiting: 0  Visitors waiting: 4
+Flustered secretary: waiting 0.229049 sec, continuing at 4.638472
+4.854715 sec:	Client #2 was answered		Clients waiting: 3	Callers waiting: 0  Visitors waiting: 3
+5.010659 sec:	Client #7 called		Clients waiting: 4	Callers waiting: 1  Visitors waiting: 3
+5.964227 sec:	Client #7 was answered		Clients waiting: 3	Callers waiting: 0  Visitors waiting: 3
+Flustered secretary: waiting 0.035401 sec, continuing at 5.999628
+6.245965 sec:	Client #8 walked in		Clients waiting: 4	Callers waiting: 0  Visitors waiting: 4
+6.278566 sec:	Client #9 walked in		Clients waiting: 5	Callers waiting: 0  Visitors waiting: 5
+6.346518 sec:	Client #3 was answered		Clients waiting: 4	Callers waiting: 0  Visitors waiting: 4
+6.553030 sec:	Client #10 walked in		Clients waiting: 5	Callers waiting: 0  Visitors waiting: 5
+6.866388 sec:	Client #11 walked in		Clients waiting: 6	Callers waiting: 0  Visitors waiting: 6
+7.125969 sec:	Client #12 walked in		Clients waiting: 7	Callers waiting: 0  Visitors waiting: 7
+7.162550 sec:	Client #13 called		Clients waiting: 8	Callers waiting: 1  Visitors waiting: 7
+7.489936 sec:	Client #13 was answered		Clients waiting: 7	Callers waiting: 0  Visitors waiting: 7
+Flustered secretary: waiting 0.209778 sec, continuing at 7.699714
+7.826988 sec:	Client #5 was answered		Clients waiting: 6	Callers waiting: 0  Visitors waiting: 6
+8.597089 sec:	Client #6 was answered		Clients waiting: 5	Callers waiting: 0  Visitors waiting: 5
+8.701347 sec:	Client #14 called		Clients waiting: 6	Callers waiting: 1  Visitors waiting: 5
+9.123817 sec:	Client #15 walked in		Clients waiting: 7	Callers waiting: 1  Visitors waiting: 6
+9.589442 sec:	Client #16 called		Clients waiting: 8	Callers waiting: 2  Visitors waiting: 6
+10.172392 sec:	Client #17 walked in		Clients waiting: 9	Callers waiting: 2  Visitors waiting: 7
+---------------------------
+All done!

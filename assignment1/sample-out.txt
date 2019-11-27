@@ -1,0 +1,40 @@
+gcc -Wall -g -c main.c
+gcc -Wall -g -c officeQueue.*
+gcc -Wall -g -o SecSim main.o officeQueue.o
+./SecSim
+Here is today's office log:
+---------------------------
+0.788766 sec:	Client #1 called		Clients waiting: 1	
+0.840188 sec:	Client #2 walked in		Clients waiting: 2	
+1.037739 sec:	Client #3 walked in		Clients waiting: 3	
+1.805969 sec:	Client #4 walked in		Clients waiting: 4	
+2.354964 sec:	Client #1 was answered		Clients waiting: 3	
+2.359939 sec:	Client #5 walked in		Clients waiting: 4	
+2.385646 sec:	Client #6 called		Clients waiting: 5	
+2.988810 sec:	Client #7 walked in		Clients waiting: 6	
+3.115215 sec:	Client #6 was answered		Clients waiting: 5	
+3.412448 sec:	Client #8 called		Clients waiting: 6	
+3.905005 sec:	Client #9 walked in		Clients waiting: 7	
+4.511973 sec:	Client #10 walked in		Clients waiting: 8	
+4.683871 sec:	Client #8 was answered		Clients waiting: 7	
+4.754860 sec:	Client #11 walked in		Clients waiting: 8	
+4.847042 sec:	Client #12 called		Clients waiting: 9	
+5.160400 sec:	Client #12 was answered		Clients waiting: 8	
+5.559037 sec:	Client #13 walked in		Clients waiting: 9	
+5.648931 sec:	Client #14 called		Clients waiting: 10	
+5.667846 sec:	Client #15 walked in		Clients waiting: 11	
+6.085444 sec:	Client #16 called		Clients waiting: 12	
+6.506958 sec:	Client #17 walked in		Clients waiting: 13	
+6.677508 sec:	Client #18 called		Clients waiting: 14	
+7.031246 sec:	Client #19 walked in		Clients waiting: 15	
+7.664674 sec:	Client #18 was answered		Clients waiting: 14	
+7.802603 sec:	Client #20 walked in		Clients waiting: 15	
+8.297890 sec:	Client #16 was answered		Clients waiting: 14	
+8.572516 sec:	Client #21 walked in		Clients waiting: 15	
+8.623057 sec:	Client #22 called		Clients waiting: 16	
+9.189687 sec:	Client #22 was answered		Clients waiting: 15	
+9.327974 sec:	Client #23 called		Clients waiting: 16	
+9.464046 sec:	Client #24 walked in		Clients waiting: 17	
+10.413374 sec:	Client #25 walked in		Clients waiting: 18	
+---------------------------
+All done!

@@ -1,0 +1,26 @@
+./ow
+a 2
+cod 1
+diet 1
+dissent 1
+doc 1
+fast 1
+fatness 1
+i 2
+never 1
+note 1
+on 1
+prevents 1
+
+a 2
+i 2
+prevents 1
+fast 1
+fatness 1
+note 1
+doc 1
+on 1
+diet 1
+cod 1
+dissent 1
+never 1

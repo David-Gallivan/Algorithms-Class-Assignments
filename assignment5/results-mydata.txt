@@ -1,0 +1,18 @@
+./markovomatic
+num		Left		Right		NextRule
+0				sasquatch			1
+1		sa					2
+2		tch		sh			3
+3		h		h soup			4
+4		qu		hoo			1
+5		p		yay			4
+
+rule	MainString (after the rule)
+0		sasquatch
+1		squatch
+2		squash
+3		squash soup
+4		shooash soup
+3		sh soupooash soup
+5		sh souyayooash soup
+5		sh souyayooash souyay

@@ -1,0 +1,47 @@
+gcc -Wall -g -c ecmain.c
+gcc -Wall -g -o SecSim-EC ecmain.o officeQueue.o
+./SecSim-EC
+Here is today's office log:
+---------------------------
+0.788766 sec:	Client #1 called		Clients waiting: 1	Callers waiting: 1  Visitors waiting: 0
+0.840188 sec:	Client #2 walked in		Clients waiting: 2	Callers waiting: 1  Visitors waiting: 1
+1.037739 sec:	Client #3 walked in		Clients waiting: 3	Callers waiting: 1  Visitors waiting: 2
+1.805969 sec:	Client #4 walked in		Clients waiting: 4	Callers waiting: 1  Visitors waiting: 3
+2.354964 sec:	Client #1 was answered		Clients waiting: 3	Callers waiting: 0  Visitors waiting: 3
+Flustered secretary: waiting 0.143219 sec, continuing at 2.498183
+2.359939 sec:	Client #5 walked in		Clients waiting: 4	Callers waiting: 0  Visitors waiting: 4
+2.385646 sec:	Client #6 called		Clients waiting: 5	Callers waiting: 1  Visitors waiting: 4
+2.724723 sec:	Client #7 walked in		Clients waiting: 6	Callers waiting: 1  Visitors waiting: 5
+3.360435 sec:	Client #8 walked in		Clients waiting: 7	Callers waiting: 1  Visitors waiting: 6
+3.412448 sec:	Client #6 was answered		Clients waiting: 6	Callers waiting: 0  Visitors waiting: 6
+Flustered secretary: waiting 0.182091 sec, continuing at 3.594538
+3.502038 sec:	Client #9 walked in		Clients waiting: 7	Callers waiting: 0  Visitors waiting: 7
+3.744924 sec:	Client #10 walked in		Clients waiting: 8	Callers waiting: 0  Visitors waiting: 8
+4.290105 sec:	Client #11 called		Clients waiting: 9	Callers waiting: 1  Visitors waiting: 8
+4.549101 sec:	Client #12 walked in		Clients waiting: 10	Callers waiting: 1  Visitors waiting: 9
+4.603464 sec:	Client #11 was answered		Clients waiting: 9	Callers waiting: 0  Visitors waiting: 9
+Flustered secretary: waiting 0.299677 sec, continuing at 4.903141
+4.657910 sec:	Client #13 walked in		Clients waiting: 10	Callers waiting: 0  Visitors waiting: 10
+5.091994 sec:	Client #14 called		Clients waiting: 11	Callers waiting: 1  Visitors waiting: 10
+5.170842 sec:	Client #15 walked in		Clients waiting: 12	Callers waiting: 1  Visitors waiting: 11
+5.808394 sec:	Client #16 walked in		Clients waiting: 13	Callers waiting: 1  Visitors waiting: 12
+6.301978 sec:	Client #17 walked in		Clients waiting: 14	Callers waiting: 1  Visitors waiting: 13
+6.317274 sec:	Client #18 called		Clients waiting: 15	Callers waiting: 2  Visitors waiting: 13
+6.594494 sec:	Client #19 walked in		Clients waiting: 16	Callers waiting: 2  Visitors waiting: 14
+6.994723 sec:	Client #20 walked in		Clients waiting: 17	Callers waiting: 2  Visitors waiting: 15
+7.278038 sec:	Client #21 walked in		Clients waiting: 18	Callers waiting: 2  Visitors waiting: 16
+7.370764 sec:	Client #22 called		Clients waiting: 19	Callers waiting: 3  Visitors waiting: 16
+7.510274 sec:	Client #23 called		Clients waiting: 20	Callers waiting: 4  Visitors waiting: 16
+8.085762 sec:	Client #24 walked in		Clients waiting: 21	Callers waiting: 4  Visitors waiting: 17
+8.277976 sec:	Client #25 walked in		Clients waiting: 22	Callers waiting: 4  Visitors waiting: 18
+8.562265 sec:	Client #26 called		Clients waiting: 23	Callers waiting: 5  Visitors waiting: 18
+8.690608 sec:	Client #27 called		Clients waiting: 24	Callers waiting: 6  Visitors waiting: 18
+8.730654 sec:	Client #27 was answered		Clients waiting: 23	Callers waiting: 5  Visitors waiting: 18
+Flustered secretary: waiting 0.018929 sec, continuing at 8.749582
+9.168208 sec:	Client #28 walked in		Clients waiting: 24	Callers waiting: 5  Visitors waiting: 19
+9.319025 sec:	Client #26 was answered		Clients waiting: 23	Callers waiting: 4  Visitors waiting: 19
+Flustered secretary: waiting 0.270662 sec, continuing at 9.589687
+9.606010 sec:	Client #29 called		Clients waiting: 24	Callers waiting: 5  Visitors waiting: 19
+10.138842 sec:	Client #30 walked in		Clients waiting: 25	Callers waiting: 5  Visitors waiting: 20
+---------------------------
+All done!
